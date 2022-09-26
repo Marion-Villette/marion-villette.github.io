@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
-    <title>Références</title>
+    <title>Références memoire</title>
   </head>
 
   <body>
