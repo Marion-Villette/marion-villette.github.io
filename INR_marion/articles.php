@@ -16,7 +16,10 @@
       <a href="" target="_blank">portfolio</a>
     </h2>
     <p>
-      Je cherche à questionner le lien entre graphisme et médiation scientifique, notamment par la narration. 
+      Je cherche à questionner le rôle que peux jouer le graphiste en tant que médiateur scientifique, 
+      en quoi ses outils et méthodes sont particulièrement adapté à ce rôle. Je travaille plus précisément sur 
+      la facilitation dans la physique, domaine intéressant car complexe et abstrait. Cela passe par deux missions:
+      rendre le sujet à la fois compréhensible et attrayant pour le grand public.
     </p>
   </aside>
 
@@ -44,16 +47,16 @@
       Atelier National de Recherche Typographique, oct. 2019 - mars 2021.
     </h5>
     
-    <blockquote cit="#">Ne pas chercher à créer des formes transparentes et "&#8201neutres&#8201", être présente par l’esthétique.</blockquote>
+    <blockquote cit="#">Ne pas chercher à créer des formes transparentes et &laquo &#8201 neutres &#8201 &raquo, être présente par l’esthétique.</blockquote>
     
     <p> 
-      Océane Juvin, typographe, et Julien Bobroff, physicien, se sont allié afin de créer une typographie permettant de transmettre plus facilement les notions complexes et impalpables de la physique quantique.
-      Cette typographie, en plus d'être géométrique et facilement compréhensible, a été également créée dans un but esthétique.
+      Océane Juvin, typographe, et Julien Bobroff, physicien, se sont alliés afin de créer une typographie permettant de transmettre plus facilement les notions complexes et impalpables de la physique quantique.
+      Cette typographie est composée de lettres et de pictogrammes. En plus d'être géométrique et facilement compréhensible, elle est utilisée pour le corps de texte, mais aussi pour faire des schémas.
     </p>
    
 
     <h6> 
-      consulté en septembre 2022 
+      consulté le 18 septembre 2022 
     </h6>
   
   </article>
@@ -71,29 +74,31 @@
 
   <article class="filterDiv mediation edition">
     <h3>
-      ROLAND, Tiphaine.  
+      GARRY, Marjorie.  
     </h3>
 
     <h4>
-      <a href="https://www.tiphaineroland.com/memoirequantique" target="_blank">
-        Mémoire quantique, 
+      <a href="https://hebergement.universite-paris-saclay.fr/supraconductivite/livrefroid/projet.html" target="_blank">
+        Le livre le plus froid du monde, 
       </a>
     </h4> 
     
     <h5>
-    Laboratoire de Physique des Solides, 2020.
+    Laboratoire de Physique des Solides, 2016.
     </h5>
     
-    <blockquote cit="#">Le condensat, l'effet Meissner, la supraconductivité de type II...</blockquote>
+    <blockquote cit="#">À mi-chemin entre cuve à expériences, livre scientifique et recueil d'images.</blockquote>
     
     <p> 
-      A partir d'une expérience de lévitation d'aimants, trois dépliants expliquant des grands principes de la physique quantique ont été créés.
-      Ici, l'explication passe d'abord par une visualisation de l'expérience, ce qui permet de rendre l'explication graphique des phénomènes physiques plus simple à comprendre.
+      Ce projet d'édition un peu particulier a été réalisé par une illustratrice en collaboration avec un physicien.
+      Il ne fonctionne que lorsqu'il est plongé dans de l'azote liquide, et devient alors le support d'expériences autour du froid extrême.
+      Ici, la mise en page est pensée pour l'utilisation très particulière que l'on va en faire, et par exemple les encres sont choisies
+      en fonction de leurs réactions avec l'azote.
     </p>
    
 
     <h6> 
-      consulté en septembre 2022 
+      lu le 9 octobre 2022
     </h6>
   
   </article>
@@ -125,14 +130,15 @@
     <blockquote cit="#"><img src="imports/life_of_a_neuron.png" alt="photo de l'exposition"></blockquote>
     
     <p> 
-      Cette oeuvre immersive, réalisée main dans la main entre artistes et neuroscientifiques, est une grande salle dans laquelle les visiteurs sont plongés dans un cerveau.
+      Cette oeuvre immersive, réalisée main dans la main entre artistes et neuroscientifiques, 
+      est une grande salle dans laquelle les visiteurs sont plongés dans un cerveau.
       Ils peuvent y voir se dérouler toute la vie d'un réseau neuronal, matérialisé par des images lumineuses et multicolores. 
       Cette oeuvre a pour but premier d'émerveiller sur le thème complexe et abstrait de la neuroscience, tout en restant fidèle à la vérité scientifique.
     </p>
    
 
     <h6> 
-      consulté en septembre 2022 
+      consulté le 5 septembre 2022 
     </h6>
   
   </article>
@@ -149,7 +155,7 @@
                                
   <article class="filterDiv experienceimmersive numerique">
     <h3>
-      Braud, Adélie.  
+      BRAUD, Adélie.  
     </h3>
 
     <h4>
@@ -166,13 +172,13 @@
     
     <p> 
       Ce projet contient 4 bandes dessinées interactives, illustrant chacune un principe de la physique quantique.
-      L'illustratrice fait le choix de plonger le lecteur dans un monde poétique et mystérieux, ce qui facilite l'immersion,
+      L'illustratrice fait le choix de plonger le lecteur dans un monde poétique et mystérieux, ce qui accompagne le lecteur dans l'immersion,
       et rend ces concepts contre-intuitifs plus facile à appréhender. 
     </p>
    
 
     <h6> 
-      consulté en septembre 2022 
+      consulté le 12 septembre 2022 
     </h6>
   
   </article>
@@ -187,7 +193,7 @@
 
   <article class="filterDiv experienceimmersive numerique">
     <h3>
-      Renon, Anne-Lyse.  
+      RENON, Anne-Lyse.  
     </h3>
 
     <h4>
@@ -197,7 +203,7 @@
     </h4> 
     
     <h5>
-      Ecole des hautes études en sciences sociales, 2016.
+      thèse soutenue à l'EHESS Paris, le 29 mai 2018.
     </h5>
     
     <blockquote cit="#"><img src="imports/paysages_quantiques.gif" alt="page de BD"></blockquote>
@@ -208,10 +214,10 @@
     notamment sur l'histoire de la culture visuelle du monde scientifique, et sur l'importance
     de l'image dans la diffusion des recherches et résultats. 
     </p>
-   
+
 
     <h6> 
-      lu en septembre 2022 
+      lu en septembre 2022
     </h6>
   
   </article>
@@ -227,7 +233,7 @@
 
   <article class="filterDiv experienceimmersive numerique">
     <h3>
-      Bobroff, Julien.  
+      BOBROFF, Julien.  
     </h3>
 
     <h4>
@@ -237,17 +243,18 @@
     </h4> 
     
     <h5>
-      Science and You, 2015
+      Science and You, 2015.
     </h5>
     
     <blockquote cit="#">Les difficultés associées à la médiation de la physique fondamentale sont multiples:
-des phénomènes souvent invisibles, abstraits, non intuitifs, écrits dans une langue
-mathématique, et une certaine apréhension du public.</blockquote>
+    des phénomènes souvent invisibles, abstraits, non intuitifs, écrits dans une langue
+    mathématique, et une certaine apréhension du public.</blockquote>
     
     
     <p> 
     La physique autrement est un laboratoire qui travaille en collaboration avec des designers afin de créer des 
-    projets de médiation. Cet article revient sur certains projets, les analyse et questionne les réponses développées.
+    projets de médiation. Cet article revient sur certains projets, les analyse et questionne les réponses développées. 
+    Cela permet au physicien d'expliquer la démarche de création et la diversité des projets produits avec lui. 
     </p>
    
 
