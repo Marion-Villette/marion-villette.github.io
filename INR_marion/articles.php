@@ -58,6 +58,16 @@
   
   </article>
 
+  
+  
+       <!-- _   _      _      
+  __ _ _ __| |_(_) ___| | ___ 
+ / _` | '__| __| |/ __| |/ _ \
+| (_| | |  | |_| | (__| |  __/
+ \__,_|_|   \__|_|\___|_|\___|
+                               -->
+
+
 
   <article class="filterDiv mediation edition">
     <h3>
@@ -88,6 +98,164 @@
   
   </article>
 
+
+       <!-- _   _      _      
+  __ _ _ __| |_(_) ___| | ___ 
+ / _` | '__| __| |/ __| |/ _ \
+| (_| | |  | |_| | (__| |  __/
+ \__,_|_|   \__|_|\___|_|\___|
+                               -->
+
+
+  <article class="filterDiv experienceimmersive numerique">
+    <h3>
+      Artechouse ; Society of Neuroscience.  
+    </h3>
+
+    <h4>
+      <a href="https://www.artechouse.com/program/life-of-a-neuron/" target="_blank">
+        Life of a neuron, 
+      </a>
+    </h4> 
+    
+    <h5>
+    Artechouse, 2022.
+    </h5>
+    
+    <blockquote cit="#"><img src="imports/life_of_a_neuron.png" alt="photo de l'exposition"></blockquote>
+    
+    <p> 
+      Cette oeuvre immersive, réalisée main dans la main entre artistes et neuroscientifiques, est une grande salle dans laquelle les visiteurs sont plongés dans un cerveau.
+      Ils peuvent y voir se dérouler toute la vie d'un réseau neuronal, matérialisé par des images lumineuses et multicolores. 
+      Cette oeuvre a pour but premier d'émerveiller sur le thème complexe et abstrait de la neuroscience, tout en restant fidèle à la vérité scientifique.
+    </p>
+   
+
+    <h6> 
+      consulté en septembre 2022 
+    </h6>
+  
+  </article>
+
+  
+       <!-- _   _      _      
+  __ _ _ __| |_(_) ___| | ___ 
+ / _` | '__| __| |/ __| |/ _ \
+| (_| | |  | |_| | (__| |  __/
+ \__,_|_|   \__|_|\___|_|\___|
+                               -->
+
+
+                               
+  <article class="filterDiv experienceimmersive numerique">
+    <h3>
+      Braud, Adélie.  
+    </h3>
+
+    <h4>
+      <a href="https://www.artechouse.com/program/life-of-a-neuron/" target="_blank">
+      Paysages quantiques, 
+      </a>
+    </h4> 
+    
+    <h5>
+    Fondation Paris-Saclay Université, 2020.
+    </h5>
+    
+    <blockquote cit="#"><img src="imports/paysages_quantiques.gif" alt="page de BD"></blockquote>
+    
+    <p> 
+      Ce projet contient 4 bandes dessinées interactives, illustrant chacune un principe de la physique quantique.
+      L'illustratrice fait le choix de plonger le lecteur dans un monde poétique et mystérieux, ce qui facilite l'immersion,
+      et rend ces concepts contre-intuitifs plus facile à appréhender. 
+    </p>
+   
+
+    <h6> 
+      consulté en septembre 2022 
+    </h6>
+  
+  </article>
+  
+       <!-- _   _      _      
+  __ _ _ __| |_(_) ___| | ___ 
+ / _` | '__| __| |/ __| |/ _ \
+| (_| | |  | |_| | (__| |  __/
+ \__,_|_|   \__|_|\___|_|\___|
+                               -->
+
+
+  <article class="filterDiv experienceimmersive numerique">
+    <h3>
+      Renon, Anne-Lyse.  
+    </h3>
+
+    <h4>
+      <a href="https://tel.archives-ouvertes.fr/tel-01802325/document" target="_blank">
+      Design et esthétique dans les pratiques de la science, 
+      </a>
+    </h4> 
+    
+    <h5>
+      Ecole des hautes études en sciences sociales, 2016.
+    </h5>
+    
+    <blockquote cit="#"><img src="imports/paysages_quantiques.gif" alt="page de BD"></blockquote>
+    
+    <p> 
+    Ce travail de thèse interroge d’un point de vue anthropologique et sémiotique la
+    construction de la connaissance scientifique par l’expression graphique. Il revient 
+    notamment sur l'histoire de la culture visuelle du monde scientifique, et sur l'importance
+    de l'image dans la diffusion des recherches et résultats. 
+    </p>
+   
+
+    <h6> 
+      lu en septembre 2022 
+    </h6>
+  
+  </article>
+
+    
+<!-- _   _      _      
+  __ _ _ __| |_(_) ___| | ___ 
+ / _` | '__| __| |/ __| |/ _ \
+| (_| | |  | |_| | (__| |  __/
+ \__,_|_|   \__|_|\___|_|\___|
+                               -->
+
+
+  <article class="filterDiv experienceimmersive numerique">
+    <h3>
+      Bobroff, Julien.  
+    </h3>
+
+    <h4>
+      <a href="https://hal.archives-ouvertes.fr/hal-02005694/document" target="_blank">
+      Le design et l’art pour vulgariser la physique,
+      </a>
+    </h4> 
+    
+    <h5>
+      Science and You, 2015
+    </h5>
+    
+    <blockquote cit="#">Les difficultés associées à la médiation de la physique fondamentale sont multiples:
+des phénomènes souvent invisibles, abstraits, non intuitifs, écrits dans une langue
+mathématique, et une certaine apréhension du public.</blockquote>
+    
+    
+    <p> 
+    La physique autrement est un laboratoire qui travaille en collaboration avec des designers afin de créer des 
+    projets de médiation. Cet article revient sur certains projets, les analyse et questionne les réponses développées.
+    </p>
+   
+
+    <h6> 
+      lu en septembre 2022 
+    </h6>
+  
+  </article>
 
 </section>
 
