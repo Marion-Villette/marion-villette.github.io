@@ -131,7 +131,7 @@
     
     <p> 
       Cet ouvrage questionne notre rapport à la physique quantique, à travers à la fois son histoire, ses utilisations actuelles et les espoirs la concernant. Il remet en cause les outils utilisés habituellement pour la désigner, comme le langage et les images employés. 
-      Philip Ball appuie l'idée que la physique quantique est une science particulière, car le problème fondamental de ces théories n'est pas un problème de logique, mais d'imagination.
+      Philip Ball appuie l'idée que la physique quantique est une science particulière, car le problème fondamental de ses théories n'est pas un problème de logique, mais d'imagination. De plus, de nombreuses hypothèses sont faites sur sa signification. La question se pose de savoir s'il faut les transmettre, surtout qu'il est probable que l'on ait jamais une réponse.
     </p>
    
 
