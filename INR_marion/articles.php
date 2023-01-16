@@ -16,15 +16,49 @@
       <a href="" target="_blank">portfolio</a>
     </h2>
    <!-- <p>
-      Je cherche à questionner le rôle que peut jouer le graphiste en tant que médiateur scientifique, 
-      en quoi ses outils et méthodes sont particulièrement adaptés à ce rôle. Je m'intéresse plus précisément à 
-      la facilitation dans la physique, domaine intéressant car complexe et abstrait. Cela passe par deux missions&#8201:
-      rendre le sujet à la fois compréhensible et attrayant pour le grand public.
+      Je cherche à questionner le rôle que peut jouer le graphiste en tant que médiateur scientifique, en quoi ses outils et méthodes sont particulièrement adaptés à ce rôle. Je m'intéresse plus précisément à la facilitation dans la physique, domaine intéressant car complexe et abstrait. Cela passe par deux missions&#8201: rendre le sujet à la fois compréhensible et attrayant pour le grand public.
     </p> -->
 
     <p>
       Je cherche à questionner les différents rôles que peut jouer le graphiste en tant qu'aide au texte de vulgarisation (écrit ou oral), quels sont ses outils et méthodes, et quel lien l'image peut établir avec le texte. Je m'intéresse plus particulièrement à la physique quantique, car son aspect complexe, abstrait et contre-intuitif pousse à établir un point de vue et une réflexion plus profonde que pour d'autres sciences.
   </aside>
+
+      <!-- _   _      _      
+  __ _ _ __| |_(_) ___| | ___ 
+ / _` | '__| __| |/ __| |/ _ \
+| (_| | |  | |_| | (__| |  __/
+ \__,_|_|   \__|_|\___|_|\___|
+                               -->
+
+
+  <article class="filterDiv mediation science design">
+    <h3>
+      BOBROFF, Julien.
+    </h3>
+
+    <h4>
+      <a href="https://hebergement.universite-paris-saclay.fr/supraconductivite/projet/nouveau_regard_conf/" target="_blank">
+        Un nouveau regard sur la physique,
+      </a>
+    </h4> 
+    
+    <h5>
+      Université Paris Sud, 2014.
+    </h5>
+    
+    <blockquote cit="https://hebergement.universite-paris-saclay.fr/supraconductivite/projet/nouveau_regard_conf/">La vulgarisation, ce n'est pas l'enseignement.</blockquote>
+    
+    
+    <p> 
+      Dans cette conférence, Julien Bobroff, cofondateur du laboratoire de vulgarisation scientifique <i>La physique autrement</i>, présente leurs différentes missions et méthodes. Celles-ci ont pour objectif d'être accessibles, innovantes, et simples, pour agrandir leur champ d'action. Il aborde également leur point de vue plus général sur la vulgarisation.
+    </p>
+   
+
+    <h6> 
+      vue en septembre 2022 
+    </h6>
+  
+  </article>
   
   <!--
             _   _      _      
@@ -103,7 +137,7 @@
   
   </article>
 
-  <!-- _   _      _      
+       <!-- _   _      _      
   __ _ _ __| |_(_) ___| | ___ 
  / _` | '__| __| |/ __| |/ _ \
 | (_| | |  | |_| | (__| |  __/
@@ -293,42 +327,6 @@
   
   </article>
 
-      <!-- _   _      _      
-  __ _ _ __| |_(_) ___| | ___ 
- / _` | '__| __| |/ __| |/ _ \
-| (_| | |  | |_| | (__| |  __/
- \__,_|_|   \__|_|\___|_|\___|
-                               -->
-
-
-  <article class="filterDiv mediation science design">
-    <h3>
-      BOBROFF, Julien.
-    </h3>
-
-    <h4>
-      <a href="https://hebergement.universite-paris-saclay.fr/supraconductivite/projet/nouveau_regard_conf/" target="_blank">
-        Un nouveau regard sur la physique,
-      </a>
-    </h4> 
-    
-    <h5>
-      Université Paris Sud, 2014.
-    </h5>
-    
-    <blockquote cit="https://hebergement.universite-paris-saclay.fr/supraconductivite/projet/nouveau_regard_conf/">La vulgarisation, ce n'est pas l'enseignement.</blockquote>
-    
-    
-    <p> 
-      Dans cette conférence, Julien Bobroff, cofondateur du laboratoire de vulgarisation scientifique <i>La physique autrement</i>, présente leurs différentes missions et méthodes. Celles-ci ont pour objectif d'être accessibles, innovantes, et simples, pour agrandir leur champ d'action. Il aborde également leur point de vue plus général sur la vulgarisation.
-    </p>
-   
-
-    <h6> 
-      vue en septembre 2022 
-    </h6>
-  
-  </article>
 </section>
 
 
