@@ -4,92 +4,169 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Marion Villette</title>
-
-	<style type="text/css">
-
-		#pain {
-			position: absolute;
-			left: 17vw;
-			top: 7vh;
-		}
-
-		#fleur {
-			position: absolute;
-			left: 78vw;
-			top: 59vh;
-		}
-
-		.drag:hover {
-			cursor: move;
-		}
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 
 </head>
 
-<body>
-	<img src="imports/pain.png" id="pain" class="drag">
-	<img src="imports/fleur.png" id="fleur" class="drag">
+<body >
+	<header>
+		<div id="categories">
+			<figure class="list" data-filter="motion">
+				<img src="imports/motion2.png" id="gr">
+				<figcaption>motion</figcaption>
+			</figure>
+			<figure class="list" data-filter="print">
+				<img src="imports/print.png">
+				<figcaption>print</figcaption>
+			</figure>
+			<figure class="list" data-filter="other">
+				<img src="imports/autre.png">
+				<figcaption>autre</figcaption>
+			</figure>
+		</div>
+		
+		<div id="logodiv">
+			<a href="index.html"><img src="imports/logo.svg" id="logo"></a>
+		</div>
+		
+		<div id="apropos">
+			<div id="aproposin">
+				<a href="about.html"><img src="imports/girl.jpg"></a>
+				<a href="about.html" id="about">à propos</a>
+			</div>
+		</div>
+	</header>
+
+	<a class="itemBox motion" href="projet-basic.html">
+		<img src="imports/basic.svg" class="projet" onmouseover="hover(this);" onmouseout="hoverOut(this)">
+	</a>
+	<a class="itemBox other" href="#">
+	<img src="imports/minisite.svg" class="projet" onmouseover="hover2(this);" onmouseout="hover2Out(this)">
+	</a>
+	<a class="itemBox print" href="#">
+	<img src="imports/wonder.svg" class="projet"
+	onmouseover="hover3(this);" onmouseout="hover3Out(this)">
+	</a>
+	<a class="itemBox motion" href="#">
+	<img src="imports/jpo.svg" class="projet"onmouseover="hover4(this);" onmouseout="hover4Out(this)">
+	</a>
+	<a class="itemBox print" href="#">
+	<img src="imports/gpac.svg" class="projet"onmouseover="hover5(this);" onmouseout="hover5Out(this)">
+	</a>
+	<a class="itemBox print" href="#">
+	<img src="imports/sect.svg" class="projet"onmouseover="hover6(this);" onmouseout="hover6Out(this)">
+	</a>
+	<a class="itemBox other" href="#">
+	<img src="imports/leana.svg" class="projet"onmouseover="hover7(this);" onmouseout="hover7Out(this)">
+	</a>
+	<a class="itemBox print" href="#">
+	<img src="imports/ferme.svg" class="projet"onmouseover="hover8(this);" onmouseout="hover8Out(this)">
+	</a>
+	<a class="itemBox other" href="#">
+	<img src="imports/photos.svg" class="projet"onmouseover="hover9(this);" onmouseout="hover9Out(this)">
+	</a>
+
+	<footer>
+		<!-- <button id="genNew"></button> -->
+		© html, css, javascript par Marion Villette. 2023. 
+	</footer>
+
+	
 
 
-	<div id="grande-img">
-		<img src="imports/ligne.svg" class="slide">
-		<img src="imports/ligne.svg" class="slide">
-		<img src="imports/ligne.svg" class="slide">
-		<img src="imports/site.svg" class="slide">
-		<img src="imports/ligne.svg" class="slide">
-		<img src="imports/en.svg" class="slide">
-		<img src="imports/ligne.svg" class="slide">
-		<img src="imports/construction.svg" class="slide">
-		<img src="imports/ligne.svg" class="slide">
-		<img src="imports/ligne.svg" class="slide">
-	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.js"
+  	integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  	crossorigin="anonymous"></script>
+
+  	
+<script type="text/javascript">
+	function hover(img)
+	{img.src = "imports/Sbasic.svg"}
+	function hoverOut(img)
+	{img.src = "imports/basic.svg"}
+
+	function hover2(img)
+	{img.src = "imports/Sminisite.svg"}
+	function hover2Out(img)
+	{img.src = "imports/minisite.svg"}
+
+	function hover3(img)
+	{img.src = "imports/Swonder.svg"}
+	function hover3Out(img)
+	{img.src = "imports/wonder.svg"}
+
+	function hover4(img)
+	{img.src = "imports/Sjpo.svg"}
+	function hover4Out(img)
+	{img.src = "imports/jpo.svg"}
+
+	function hover5(img)
+	{img.src = "imports/Sgpac.svg"}
+	function hover5Out(img)
+	{img.src = "imports/gpac.svg"}
+
+	function hover6(img)
+	{img.src = "imports/Ssect.svg"}
+	function hover6Out(img)
+	{img.src = "imports/sect.svg"}
+
+	function hover7(img)
+	{img.src = "imports/Sleana.svg"}
+	function hover7Out(img)
+	{img.src = "imports/leana.svg"}
+
+	function hover8(img)
+	{img.src = "imports/Sferme.svg"}
+	function hover8Out(img)
+	{img.src = "imports/ferme.svg"}
+
+	function hover9(img)
+	{img.src = "imports/Sphotos.svg"}
+	function hover9Out(img)
+	{img.src = "imports/photos.svg"}
+
+
+
+	$(document).ready(function(){
+  		$('.list').click(function(){
+  			const value = $(this).attr('data-filter');
+  			if (value == 'all'){
+				$ ('.itemBox').show();
+ 			}
+
+  			else{
+  				$ ('.itemBox').not('.'+value).hide();
+  				$ ('.itemBox').filter('.'+value).show();
+
+  			}
+  		})
+
+  			//add active class on selected item
+
+  		$('.list').click(function(){
+  			$(this).addClass('active').siblings().removeClass('active');
+  		})
+  		})
+</script>
+
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js">
+
+	var color = randomColor(); // a hex code for an attractive color
+
+
+	const setBg = () => {
+	document.body.style.backgroundColor = "#" + randomColor;
+	color.innerHTML = "#" + randomColor;}
+
+	genNew.addEventListener("click", setBg);
+	setBg();
+</script> -->
 
 </body>
 
-<script type="text/javascript">
-	dragElement(document.getElementById("pain"));
-	dragElement(document.getElementById("fleur"));
-
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id)) {
-    // if present, the header is where you move the DIV from:
-    document.getElementById(elmnt.id).onmousedown = dragMouseDown;
-  } else {
-    // otherwise, move the DIV from anywhere inside the DIV:
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    // stop moving when mouse button is released:
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
 </html>

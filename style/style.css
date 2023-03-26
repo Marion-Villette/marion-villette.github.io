@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+::-webkit-scrollbar {
+	width: 10px;
+	background: white;
+	border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb {
+	background: white;
+	border: 2px solid black;
+	border-radius: 1px;
+}
+
+/*
+                              _ _ 
+     /\                      (_) |
+    /  \   ___ ___ _   _  ___ _| |
+   / /\ \ / __/ __| | | |/ _ \ | |
+  / ____ \ (_| (__| |_| |  __/ | |
+ /_/    \_\___\___|\__,_|\___|_|_|
+                                  */
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	overflow-x: hidden;
+}
+
+header {
+	/*border: 2px solid black;*/
+	height: auto;
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px 50px;
+	position: sticky;
+	top: 0;
+	border-bottom: 2px solid black;
+	z-index: 10;
+}
+
+#categories {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 55%;
+}
+
+#categories figure{
+	width: calc(20vh/3);
+	min-width: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.list img{
+	width: 100%;
+	filter: grayscale(100%);
+	transition: .06s ease;
+}
+
+.list figcaption {
+	opacity: 0%;
+}
+
+.list:hover img{
+	filter: grayscale(0%);
+}
+
+.list:hover figcaption {
+	opacity: 100%;
+}
+
+#logodiv {
+	text-align: center;
+}
+
+#logo {
+	height: calc(20vh/3);
+	min-height: 50px;
+	display: inline-block;
+}
+
+#aproposin {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#aproposin img {
+	width: calc(20vh/3);
+	height: calc(20vh/3);
+	min-width: 50px;
+	min-height: 50px;
+	transition: .2s ease;
+}
+
+#aproposin img:hover {
+	filter: invert(100%);
+}
+
+#about {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	margin-left: 10px ;
+}
+
+#about::after{
+	content: '';
+ 	position: absolute;
+ 	width: 100%;
+ 	transform: scaleX(0);
+ 	height: 1px;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	transform-origin: bottom right;
+ 	transition: transform 0.15s ease-out;
+}
+
+#about:hover::after {
+	transform: scaleX(1);
+ 	transform-origin: bottom left;
+}
+
+.projet {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-bottom: 2px solid black;
+}
+
+.gr-ptites {
+	display: flex;
+	border: 2px solid red;
+	align-items: center;
+	opacity: 0;
+}
+
+.categorie {
+	width: 50px;
+	position: absolute;
+	left: 4vw;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+/*#genNew {
+	position: fixed;
+	border: 2px solid red;
+	bottom: 5px;
+	left: 5px;
+}*/
+
+
+
+
+/*         _                 _   
+  /$$$$$$  /$$                             /$$    
+ /$$__  $$| $$                            | $$    
+| $$  \ $$| $$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$  
+| $$$$$$$$| $$__  $$ /$$__  $$| $$  | $$|_  $$_/  
+| $$__  $$| $$  \ $$| $$  \ $$| $$  | $$  | $$    
+| $$  | $$| $$  | $$| $$  | $$| $$  | $$  | $$ /$$
+| $$  | $$| $$$$$$$/|  $$$$$$/|  $$$$$$/  |  $$$$/
+|__/  |__/|_______/  \______/  \______/    \___/  
+                                                  
+*/
+
+
+#grande-about {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	width: 70vw;
+	height: auto;
+	margin-top: 10vh;
+}
+
+.moi {
+	width: 100%;
+	border-radius: 50%;
+}
+
+#grille-moi {
+	width: 30vw;
+}
+
+#texte-moi {
+	width: 43%;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.contact {
+	text-decoration: none;
+	color: black;
+	position: relative;
+}
+
+.contact::after{
+	content: '';
+ 	position: absolute;
+ 	width: 100%;
+ 	transform: scaleX(0);
+ 	height: 1px;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	transform-origin: bottom right;
+ 	transition: transform 0.15s ease-out;
+}
+
+.contact:hover::after {
+	transform: scaleX(1);
+ 	transform-origin: bottom left;
+}
+
+
+
+
+
+/*
+ /$$$$$$$                                          /$$             /$$     /$$                    
+| $$__  $$                                        |__/            | $$    |__/                    
+| $$  \ $$  /$$$$$$   /$$$$$$$  /$$$$$$$  /$$$$$$  /$$  /$$$$$$  /$$$$$$   /$$  /$$$$$$  /$$$$$$$ 
+| $$  | $$ /$$__  $$ /$$_____/ /$$_____/ /$$__  $$| $$ /$$__  $$|_  $$_/  | $$ /$$__  $$| $$__  $$
+| $$  | $$| $$$$$$$$|  $$$$$$ | $$      | $$  \__/| $$| $$  \ $$  | $$    | $$| $$  \ $$| $$  \ $$
+| $$  | $$| $$_____/ \____  $$| $$      | $$      | $$| $$  | $$  | $$ /$$| $$| $$  | $$| $$  | $$
+| $$$$$$$/|  $$$$$$$ /$$$$$$$/|  $$$$$$$| $$      | $$| $$$$$$$/  |  $$$$/| $$|  $$$$$$/| $$  | $$
+|_______/  \_______/|_______/  \_______/|__/      |__/| $$____/    \___/  |__/ \______/ |__/  |__/
+                                                      | $$                                        
+                                                      | $$                                        
+                                                      |__/                                                  
+*/
+
+#grande-description {
+	width: 90vw;
+	margin: auto;
+	margin-top: 10vh;
+	margin-bottom: 20vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+#description-projet {
+	font-size: 1.3em;
+	margin: auto;
+	width: 50vw;
+	max-height: 500px;
+	line-height: 1.4em;
+}
+
+#titre {
+	font-variation-settings:'wght' 350;
+	color: black;
+	font-size: 2.2em;
+	line-height: 100%;
+	margin-bottom: 20px;
+}
+
+#sous-titre {
+	color: black;
+	line-height: 1em;
+	margin-bottom: 40px;
+}
+
+
+/*
+ /$$$$$$$                                                        /$$                
+| $$__  $$                                                      | $$                
+| $$  \ $$  /$$$$$$  /$$$$$$/$$$$   /$$$$$$   /$$$$$$   /$$$$$$$| $$$$$$$   /$$$$$$ 
+| $$  | $$ /$$__  $$| $$_  $$_  $$ |____  $$ /$$__  $$ /$$_____/| $$__  $$ /$$__  $$
+| $$  | $$| $$$$$$$$| $$ \ $$ \ $$  /$$$$$$$| $$  \__/| $$      | $$  \ $$| $$$$$$$$
+| $$  | $$| $$_____/| $$ | $$ | $$ /$$__  $$| $$      | $$      | $$  | $$| $$_____/
+| $$$$$$$/|  $$$$$$$| $$ | $$ | $$|  $$$$$$$| $$      |  $$$$$$$| $$  | $$|  $$$$$$$
+|_______/  \_______/|__/ |__/ |__/ \_______/|__/       \_______/|__/  |__/ \_______/
+                                                                                   
+ */
+
+
+ #immense-projet{
+	width: 80vw;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	left: 2vw;
+	padding: 50px;
+}
+
+
+#immense-projet figcaption {
+	text-align: left;
+	margin: 50px;
+	width: 40vw;
+}
+
+
+.titre-etape{
+	display: inline-block;
+	margin: 10px auto;
+	font-size: 2em;
+}
+
+/*hr{
+	width: 200%;
+	position: relative;
+	right: 45%;
+	background-color: black;
+	border: none;
+	height: 2px;
+}*/
+
+.figure{
+	margin: 10vh auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+	line-height: 1.3em;
+}
+
+.grande-hb{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-haut {
+	width: 70vw;
+	height: auto;
+}
+
+.img-haut-l {
+	width: 100%;
+	margin: 10px auto;
+}
+
+
+#img-recherches {
+	width: 50vw;
+	height: auto;
+}
+
+#grande-interface {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#img-interface {
+	width: 100%;
+	height: auto;
+}
+
+#texte-interface {
+	width: 60%;
+	margin: auto;
+}
+
+#grande-docs{
+	display: flex;
+	align-items: center;
+}
+
+#img-docs {
+	width: 50vw;
+	height: auto;
+}
+
+#texte-choix{
+	width: 60%;
+	margin: auto;
+}
+
+
+
+
+
+#boutons{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-proj {
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	border: none;
+	color: black;
+}
+
+.btn-proj a{
+	position: relative;
+	text-decoration: none;
+}
+
+.btn-proj a::after{
+	content: '';
+ 	position: absolute;
+ 	width: 100%;
+ 	transform: scaleX(0);
+ 	height: 1px;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	transform-origin: bottom right;
+ 	transition: transform 0.15s ease-out;
+}
+
+.btn-proj a:hover::after {
+	transform: scaleX(1);
+ 	transform-origin: bottom left;
+}
+
+
+/*
+$$$$$$$\                                     $$\     
+$$  __$$\                                    $$ |    
+$$ |  $$ | $$$$$$\   $$$$$$\  $$\  $$$$$$\ $$$$$$\   
+$$$$$$$  |$$  __$$\ $$  __$$\ \__|$$  __$$\\_$$  _|  
+$$  ____/ $$ |  \__|$$ /  $$ |$$\ $$$$$$$$ | $$ |    
+$$ |      $$ |      $$ |  $$ |$$ |$$   ____| $$ |$$\ 
+$$ |      $$ |      \$$$$$$  |$$ |\$$$$$$$\  \$$$$  |
+\__|      \__|       \______/ $$ | \_______|  \____/ 
+                        $$\   $$ |                   
+                        \$$$$$$  |                   
+                         \______/                    
+$$$$$$$\                      $$\                    
+$$  __$$\                     \__|                   
+$$ |  $$ | $$$$$$\   $$$$$$$\ $$\  $$$$$$$\          
+$$$$$$$\ | \____$$\ $$  _____|$$ |$$  _____|         
+$$  __$$\  $$$$$$$ |\$$$$$$\  $$ |$$ /               
+$$ |  $$ |$$  __$$ | \____$$\ $$ |$$ |               
+$$$$$$$  |\$$$$$$$ |$$$$$$$  |$$ |\$$$$$$$\          
+\_______/  \_______|\_______/ \__| \_______|         
+*/
+
+
+.video-basic {
+	height: 60vh;
+	width: 60vw;
+}
+
+.fleur {
+	width: 100px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 9;
+}
+
+#fleur {
+	left: 10vw;
+	top: 17vh;
+}
+
+#fleur1 {
+	left: 34vw;
+	top: 19vh;
+}
+
+#fleur2 {
+	left: 65vw;
+	top: 70vh;
+}
+
+#fleur3 {
+	left: 44vw;
+	top: 36vh;
+}
+
+#fleur4 {
+	left: 80vw;
+	top: 20vh;
+}
+
+#fleur5 {
+	left: 27vw;
+	top: 54vh;
+}
+
+#fleur6 {
+	left: 87vw;
+	top: 144vh;
+}
+
+#fleur7 {
+	left: 3vw;
+	top: 100vh;
+}
+
+#fleur8 {
+	left: 7vw;
+	top: 123vh;
+}
+
+#fleur9 {
+	left: 19vw;
+	top: 187vh;
+}
+
+#fleur10 {
+	left: 89vw;
+	top: 238vh;
+}
+
+#fleur11 {
+	left: 5vw;
+	top: 279vh;
+}
+
+#fleur12 {
+	left: 80vw;
+	top: 320vh;
+}
+
+#fleur13 {
+	left: 34vw;
+	top: 345vh;
+}
+
+#fleur14 {
+	left: 89vw;
+	top: 355vh;
+}
