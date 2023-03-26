@@ -334,6 +334,11 @@ footer {
 	align-items: center;
 }
 
+.grande-gd {
+	display: flex;
+	align-items: center;
+}
+
 .img-haut {
 	width: 70vw;
 	height: auto;
@@ -344,6 +349,17 @@ footer {
 	margin: 10px auto;
 }
 
+.img-g {
+	width: 50%;
+}
+
+.img-d {
+	width: 50vw;
+}
+
+.texte-g{
+	width: 60%;
+}
 
 #img-recherches {
 	width: 50vw;
@@ -422,18 +438,7 @@ footer {
 }
 
 
-/*
-$$$$$$$\                                     $$\     
-$$  __$$\                                    $$ |    
-$$ |  $$ | $$$$$$\   $$$$$$\  $$\  $$$$$$\ $$$$$$\   
-$$$$$$$  |$$  __$$\ $$  __$$\ \__|$$  __$$\\_$$  _|  
-$$  ____/ $$ |  \__|$$ /  $$ |$$\ $$$$$$$$ | $$ |    
-$$ |      $$ |      $$ |  $$ |$$ |$$   ____| $$ |$$\ 
-$$ |      $$ |      \$$$$$$  |$$ |\$$$$$$$\  \$$$$  |
-\__|      \__|       \______/ $$ | \_______|  \____/ 
-                        $$\   $$ |                   
-                        \$$$$$$  |                   
-                         \______/                    
+/*                  
 $$$$$$$\                      $$\                    
 $$  __$$\                     \__|                   
 $$ |  $$ | $$$$$$\   $$$$$$$\ $$\  $$$$$$$\          
@@ -530,4 +535,97 @@ $$$$$$$  |\$$$$$$$ |$$$$$$$  |$$ |\$$$$$$$\
 #fleur14 {
 	left: 89vw;
 	top: 355vh;
+}
+
+
+/*
+
+$$$$$$$$\ $$\                       $$\      $$\                     $$\                                                   
+\__$$  __|$$ |                      $$$\    $$$ |                    $$ |                                                  
+   $$ |   $$$$$$$\   $$$$$$\        $$$$\  $$$$ |$$\   $$\  $$$$$$$\ $$$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$\$$$$\  
+   $$ |   $$  __$$\ $$  __$$\       $$\$$\$$ $$ |$$ |  $$ |$$  _____|$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ $$  _$$  _$$\ 
+   $$ |   $$ |  $$ |$$$$$$$$ |      $$ \$$$  $$ |$$ |  $$ |\$$$$$$\  $$ |  $$ |$$ |  \__|$$ /  $$ |$$ /  $$ |$$ / $$ / $$ |
+   $$ |   $$ |  $$ |$$   ____|      $$ |\$  /$$ |$$ |  $$ | \____$$\ $$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ | $$ | $$ |
+   $$ |   $$ |  $$ |\$$$$$$$\       $$ | \_/ $$ |\$$$$$$  |$$$$$$$  |$$ |  $$ |$$ |      \$$$$$$  |\$$$$$$  |$$ | $$ | $$ |
+   \__|   \__|  \__| \_______|      \__|     \__| \______/ \_______/ \__|  \__|\__|       \______/  \______/ \__| \__| \__|
+
+*/
+
+#txt-mush {
+	margin-bottom: 20px;
+}
+
+.lien-site {
+	text-decoration: none;
+	color: black;
+	position: relative;
+	margin-right: 20px;
+}
+
+.lien-site::after{
+	content: '';
+ 	position: absolute;
+ 	width: 100%;
+ 	transform: scaleX(0);
+ 	height: 1px;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	transform-origin: bottom right;
+ 	transition: transform 0.15s ease-out;
+}
+
+.lien-site:hover::after {
+	transform: scaleX(1);
+ 	transform-origin: bottom left;
+}
+
+#memex {
+	height: 10vh;
+	position: relative;
+	top: 10vh;
+}
+
+/*
+   $$$$$\ $$$$$$$\   $$$$$$\                         
+   \__$$ |$$  __$$\ $$  __$$\                        
+      $$ |$$ |  $$ |$$ /  $$ |                       
+      $$ |$$$$$$$  |$$ |  $$ |                       
+$$\   $$ |$$  ____/ $$ |  $$ |                       
+$$ |  $$ |$$ |      $$ |  $$ |                       
+\$$$$$$  |$$ |       $$$$$$  |                       
+ \______/ \__|       \______/                        
+  */
+
+
+#lien-Elisa {
+	text-decoration: none;
+	color: black;
+	position: relative;
+}
+
+#lien-Elisa::after{
+	content: '';
+ 	position: absolute;
+ 	width: 100%;
+ 	transform: scaleX(0);
+ 	height: 1px;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	transform-origin: bottom right;
+ 	transition: transform 0.15s ease-out;
+}
+
+#lien-Elisa:hover::after {
+	transform: scaleX(1);
+ 	transform-origin: bottom left;
+}
+
+
+#lignes {
+	position: absolute;
+	bottom: 0vh;
+	width: 100vw;
+	height: 50vh;
 }
