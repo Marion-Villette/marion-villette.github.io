@@ -36,7 +36,7 @@
 		<div id="apropos">
 			<div id="aproposin">
 				<a href="about.html"><img src="imports/girl.jpg"></a>
-				<a href="about.html" id="about">à propos</a>
+				<a href="about.html" class="lien">à propos</a>
 			</div>
 		</div>
 	</header>
@@ -47,8 +47,8 @@
 
 
 
-			<div id="grande-description">
-				<div id="description-projet"><h2 id="titre">Teaser des JPO</h2><h3 id="sous-titre">Décembre 2020 / Janvier 2021 - DNMADE 1</h3><p>Pour l’occasion des journées portes ouvertes du lycée Jacques Prévert, j’ai réalisé un teaser à partir de l’affiche d’<a href="https://elisagandon.github.io/" id="lien-Elisa" target="_blank">Elisa Gandon</a>. Destiné à être partagé sur les réseaux sociaux, il est rapide et efficace, transmettant les informations principales en 15 secondes. <br><br></p>
+			<div id="grande-description-jpo">
+				<div id="description-projet"><h2 id="titre">Teaser des JPO</h2><h3 id="sous-titre">Décembre 2020 / Janvier 2021 - DNMADE 1</h3><p>Pour l’occasion des journées portes ouvertes du lycée Jacques Prévert, j’ai réalisé un teaser à partir de l’affiche d’<a href="https://elisagandon.github.io/" class="lien" target="_blank">Elisa Gandon</a>. Destiné à être partagé sur les réseaux sociaux, il est rapide et efficace, transmettant les informations principales en 15 secondes. <br><br></p>
 				<div id="lien-sites"><a class="lien-site" href="http://jpo.dnmade-prevert.fr/" target="_blank">Site des JPO</a></div>
 				</div>
 		</section>
@@ -85,70 +85,11 @@
 
 
 		<div id="boutons"> 
-			<button class="btn-proj"><a href="projet-ferme.html" class="btn-proj">← Projet précédent</a></button>
-			<button class="btn-proj"><a href="projet-jardin.html" class="btn-proj">Projet suivant →</a></button>
+			<button class="btn-proj"><a href="projet-ferme.html" class="lien">← Projet précédent</a></button>
+			<button class="btn-proj"><a href="projet-jardin.html" class="lien">Projet suivant →</a></button>
 		</div>
 
 
 		</section>
-
-
-		<!-- 
-  /$$$$$$                      /$$             /$$    
- /$$__  $$                    |__/            | $$    
-| $$  \__/  /$$$$$$$  /$$$$$$  /$$  /$$$$$$  /$$$$$$  
-|  $$$$$$  /$$_____/ /$$__  $$| $$ /$$__  $$|_  $$_/  
- \____  $$| $$      | $$  \__/| $$| $$  \ $$  | $$    
- /$$  \ $$| $$      | $$      | $$| $$  | $$  | $$ /$$
-|  $$$$$$/|  $$$$$$$| $$      | $$| $$$$$$$/  |  $$$$/
- \______/  \_______/|__/      |__/| $$____/    \___/  
-                                  | $$                
-                                  | $$                
-                                  |__/                 -->
-
-
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-			<script>
-		$(document).ready(function() {
-			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
-				var page = $(this).attr('href'); // Page cible
-				var speed = 800; // Durée de l'animation (en ms)
-				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-				return false;
-			});
-
-			button.onclick = function () {
-
-			 var red = (185);
-			 var blue =(254);
-			 var green = (172);
-
-			 this.style.color = "rgb(" + red + "," + green + "," + blue + ")";
-			};
-
-		});
-
-
-
-
-
-   	$("ul").hide();
-   	$("#croix-proj").hide();
-
-		$("#menu-proj").click(function(){
-		$("ul").show(200);
-		$("#croix-proj").show(200);
-		$("#menu-proj").hide(200);
-		});
-
-		$("#croix-proj").click(function(){
-		$("ul").hide(200);
-		$("#croix-proj").hide(200);
-		$("#menu-proj").show(200);
-		});
-
-
-	</script>
-
 	</body>
 </html>
