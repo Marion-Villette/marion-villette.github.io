@@ -195,6 +195,10 @@ footer {
 	margin-top: 10vh;
 }
 
+.contact {
+	color: black;
+}
+
 .moi {
 	width: 100%;
 	border-radius: 50%;
@@ -208,6 +212,10 @@ footer {
 	width: 43%;
 	text-align: left;
 	line-height: 1.3em;
+}
+
+#au-fait {
+	font-style: italic;
 }
 
 
