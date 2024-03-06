@@ -6,6 +6,7 @@
 	<title>Marion Villette</title>
 	<link rel="stylesheet" type="text/css" href="style/reset.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" media="handheld, only screen and (max-device-width: 480px)" type="text/css" href="style/mobile.css" />
 	<link rel="shortcut icon" type="image/png" href="imports/favicon.png">
 
 </head>
@@ -42,12 +43,26 @@
 	<a class="itemBox motion" href="projet-basic.html">
 		<img src="imports/basic.svg" class="projet" onmouseover="hover(this);" onmouseout="hoverOut(this)">
 	</a>
-	<a class="itemBox other" href="projet-mushroom.html">
-	<img src="imports/minisite.svg" class="projet" onmouseover="hover2(this);" onmouseout="hover2Out(this)">
 	</a>
 	<a class="itemBox print" href="projet-wonder.html">
 	<img src="imports/wonder.svg" class="projet"
 	onmouseover="hover3(this);" onmouseout="hover3Out(this)">
+	</a>
+	<a class="itemBox motion" href="projet-dedouze.html">
+	<img src="imports/dedouze.svg" class="projet"
+	onmouseover="hover10(this);" onmouseout="hover10Out(this)">
+	</a>
+	<a class="itemBox other" href="projet-mushroom.html">
+	<img src="imports/minisite.svg" class="projet" onmouseover="hover2(this);" onmouseout="hover2Out(this)">
+	<a class="itemBox print" href="projet-boulbiverse.html">
+	<img src="imports/boulbiverse.svg" class="projet"
+	onmouseover="hover11(this);" onmouseout="hover11Out(this)">
+	</a>
+	<a class="itemBox other" href="projet-surreel.html">
+	<img src="imports/surreel.svg" class="projet" onmouseover="hover9(this);" onmouseout="hover9Out(this)">
+	</a>
+	<a class="itemBox other" href="projet-portraits.html">
+	<img src="imports/portraits.svg" class="projet" onmouseover="hover12(this);" onmouseout="hover12Out(this)">
 	</a>
 	<a class="itemBox motion" href="projet-jpo.html">
 	<img src="imports/jpo.svg" class="projet"onmouseover="hover4(this);" onmouseout="hover4Out(this)">
@@ -55,18 +70,18 @@
 	<a class="itemBox print" href="projet-jardin.html">
 	<img src="imports/gpac.svg" class="projet"onmouseover="hover5(this);" onmouseout="hover5Out(this)">
 	</a>
-	<a class="itemBox print" href="#">
+	<a class="itemBox print" href="projet-sect.html">
 	<img src="imports/sect.svg" class="projet"onmouseover="hover6(this);" onmouseout="hover6Out(this)">
 	</a>
-	<a class="itemBox other" href="#">
+	<a class="itemBox other" href="projet-leana.html">
 	<img src="imports/leana.svg" class="projet"onmouseover="hover7(this);" onmouseout="hover7Out(this)">
 	</a>
 	<a class="itemBox print" href="projet-ferme.html">
 	<img src="imports/ferme.svg" class="projet"onmouseover="hover8(this);" onmouseout="hover8Out(this)">
 	</a>
-	<a class="itemBox other" href="projet-photo.html">
+	<!-- <a class="itemBox other" href="projet-photo.html">
 	<img src="imports/photos.svg" class="projet"onmouseover="hover9(this);" onmouseout="hover9Out(this)">
-	</a>
+	</a> -->
 
 	<footer>
 		<!-- <button id="genNew"></button> -->
@@ -127,9 +142,24 @@
 	{img.src = "imports/ferme.svg"}
 
 	function hover9(img)
-	{img.src = "imports/Sphotos.svg"}
+	{img.src = "imports/Ssurreel.svg"}
 	function hover9Out(img)
-	{img.src = "imports/photos.svg"}
+	{img.src = "imports/surreel.svg"}
+
+	function hover10(img)
+	{img.src = "imports/Sdedouze.svg"}
+	function hover10Out(img)
+	{img.src = "imports/dedouze.svg"}
+
+	function hover11(img)
+	{img.src = "imports/Sboulbiverse.svg"}
+	function hover11Out(img)
+	{img.src = "imports/boulbiverse.svg"}
+
+	function hover12(img)
+	{img.src = "imports/Sportraits.svg"}
+	function hover12Out(img)
+	{img.src = "imports/portraits.svg"}
 
 
 

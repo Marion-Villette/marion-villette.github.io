@@ -28,6 +28,12 @@ body {
 	overflow-x: hidden;
 }
 
+@media (max-width: 700px) {
+  body {
+  	background-color: yellow;
+  }
+}
+
 header {
 	/*border: 2px solid black;*/
 	height: auto;
@@ -189,6 +195,10 @@ footer {
 	margin-top: 10vh;
 }
 
+.contact {
+	color: black;
+}
+
 .moi {
 	width: 100%;
 	border-radius: 50%;
@@ -202,6 +212,10 @@ footer {
 	width: 43%;
 	text-align: left;
 	line-height: 1.3em;
+}
+
+#au-fait {
+	font-style: italic;
 }
 
 
@@ -341,6 +355,10 @@ footer {
 
 .texte-g{
 	width: 60%;
+}
+
+.texte-d{
+	width: 40%;
 }
 
 
@@ -633,6 +651,31 @@ $$ |   \$$$$$$$\ $$ |      $$ | $$ | $$ |\$$$$$$$\
 }
 
 
+
+
+/*
+ /$$$$$$$                       /$$                        /$$   /$$             
+| $$__  $$                     | $$                       |__/  | $$             
+| $$  \ $$ /$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$  /$$$$$$  /$$ /$$$$$$   /$$$$$$$
+| $$$$$$$//$$__  $$ /$$__  $$|_  $$_/   /$$__  $$|____  $$| $$|_  $$_/  /$$_____/
+| $$____/| $$  \ $$| $$  \__/  | $$    | $$  \__/ /$$$$$$$| $$  | $$   |  $$$$$$ 
+| $$     | $$  | $$| $$        | $$ /$$| $$      /$$__  $$| $$  | $$ /$$\____  $$
+| $$     |  $$$$$$/| $$        |  $$$$/| $$     |  $$$$$$$| $$  |  $$$$//$$$$$$$/
+|__/      \______/ |__/         \___/  |__/      \_______/|__/   \___/ |_______/ 
+                                                                                                                                                                
+*/
+
+
+.portraits {
+	display: flex;
+}
+
+.portrait {
+	width: 30%;	
+	margin-right: 10px;
+	align-self: center;
+	flex: 0 0 auto;
+}
 /*
 $$$$$$$\                                     $$\     
 $$  __$$\                                    $$ |    
