@@ -585,6 +585,18 @@ $$$$$$\       $$$$$$$$\       \$$$$$$  |
 	width: 100%;
 }
 
+.row_3 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 10px;
+	width: 80%;
+}
+
+.row_3 img{
+	width: 100%;
+}
+
 
 
 /*r l
@@ -848,7 +860,4 @@ $$ |      $$ |  $$ |\$$$$$$  | \$$$$  |\$$$$$$  |
 	grid-template-rows: 1fr 1fr;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 10px;
-
 }
-
-
